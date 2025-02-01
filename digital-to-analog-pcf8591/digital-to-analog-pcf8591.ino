@@ -34,9 +34,5 @@ void loop() {
   if(millis() - oldtime2 > 500){
     oldtime2= millis();
     pcf.analogWrite(valueToWrite);
-  }
-  
- 
-  
-  
+  }  
 }
